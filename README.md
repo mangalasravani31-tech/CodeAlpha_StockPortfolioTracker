@@ -23,12 +23,52 @@ Saving results to CSV
 functions
 Modular, clean code structure
 ▶️ How to Run
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/CodeAlpha_StockPortfolioTracker.git
+
+# Navigate into the folder
+cd CodeAlpha_StockPortfolioTracker
+
+# Run the tracker
+python stock_portfolio_tracker.py
 Bash
 Requires Python 3.x — no external libraries needed!
 🎮 Sample Output
+==================================================
+     💹  STOCK PORTFOLIO TRACKER  💹
+==================================================
+
+📈  Available Stocks:
+------------------------------
+  Symbol      Price (USD)
+------------------------------
+  AAPL               $180
+  TSLA               $250
+  ...
+
+➕  Enter stock symbol and quantity (type 'done' to finish):
+
+   Stock symbol : AAPL
+   Quantity      : 5
+   ✅  Added 5 share(s) of AAPL
+
+==================================================
+        📊  PORTFOLIO SUMMARY
+==================================================
+  Stock      Qty      Price        Value
+--------------------------------------------------
+  AAPL         5       $180          $900
+  TSLA         2       $250          $500
+--------------------------------------------------
+  TOTAL INVESTMENT                  $1,400
+==================================================
 Code
 📁 Project Structure
 Code
+CodeAlpha_StockPortfolioTracker/
+│
+├── stock_portfolio_tracker.py   # Main application file
+└── README.md                    # Project documentation
 👩‍💻 Author
 Mangala Sravani
 Python Programming Intern — CodeAlpha
